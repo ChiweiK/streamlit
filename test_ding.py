@@ -17,7 +17,7 @@ dataset_url = "https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analy
 # read csv from a URL
 @st.cache_data
 def get_data() -> pd.DataFrame:
-    return pd.read_csv(r'C:\Users\XDDDDDDDDDDDDDDDDDDD\Downloads\proj_dashboard\avocado.csv')
+    return pd.read_csv(r'avocado.csv')
 
 df = get_data()
 
