@@ -1,4 +1,4 @@
-import time  # to simulate a real time data, time loop
+#import time  # to simulate a real time data, time loop
 
 import numpy as np  # np mean, np random
 import pandas as pd  # read csv, df manipulation
@@ -73,4 +73,4 @@ for seconds in range(200):
 
         st.markdown("### Detailed Data View")
         st.dataframe(df)
-        time.sleep(1)
+       # time.sleep(1)
